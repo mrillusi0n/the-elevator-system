@@ -1,6 +1,5 @@
 class Elevator:
-    def __init__(self, number):
-        self.number = number
+    def __init__(self):
         self.requests = []
         self.active_buttons = [False for _ in range(10)]
         self.stops = [False for _ in range(10)]
