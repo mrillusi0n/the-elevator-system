@@ -31,3 +31,4 @@ class Elevator:
 
     def get_active_buttons(self):
         return [i for i, status in enumerate(self.active_buttons) if status is True]
+
